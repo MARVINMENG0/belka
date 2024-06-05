@@ -1,0 +1,5 @@
+05-31 20:41:27.023 172.18.0.2:54323      2570     Thread-5  WARN water.default: SECURITY_WARNING: web_ip is not specified. H2O Rest API is listening on all available interfaces.
+05-31 20:41:27.029 172.18.0.2:54323      2570     Thread-5  WARN water.default: Flatfile configuration does not include self: /172.18.0.2:54323, but contains []
+05-31 20:41:28.149 172.18.0.2:54323      2570     Thread-5  WARN ai.h2o.sparkling.backend.utils.ProxyStarter: Tried using port 54323 for Flow proxy, but port was already occupied!
+05-31 20:41:28.150 172.18.0.2:54323      2570     Thread-5  WARN ai.h2o.sparkling.backend.utils.ProxyStarter: Tried using port 54324 for Flow proxy, but port was already occupied!
+05-31 20:50:50.181 172.18.0.2:54323      2570   own-hook-0  WARN ai.h2o.sparkling.H2OContext: Spark shutdown hook called, stopping H2OContext!

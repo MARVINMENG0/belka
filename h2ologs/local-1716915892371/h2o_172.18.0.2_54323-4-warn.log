@@ -1,0 +1,7 @@
+05-28 17:05:11.445 172.18.0.2:54323      195      Thread-5  WARN water.default: 
+05-28 17:05:11.446 172.18.0.2:54323      195      Thread-5  WARN water.default: *** Your H2O version is too old! Please download the latest version from http://h2o.ai/download/ ***
+05-28 17:05:11.446 172.18.0.2:54323      195      Thread-5  WARN water.default: 
+05-28 17:05:11.456 172.18.0.2:54323      195      Thread-5  WARN water.default: Flatfile configuration does not include self: /172.18.0.2:54323, but contains []
+05-28 17:05:12.427 172.18.0.2:54323      195      Thread-5  WARN ai.h2o.sparkling.backend.utils.ProxyStarter: Tried using port 54323 for Flow proxy, but port was already occupied!
+05-28 17:05:12.429 172.18.0.2:54323      195      Thread-5  WARN ai.h2o.sparkling.backend.utils.ProxyStarter: Tried using port 54324 for Flow proxy, but port was already occupied!
+05-28 17:13:53.435 172.18.0.2:54323      195    own-hook-0  WARN ai.h2o.sparkling.H2OContext: Spark shutdown hook called, stopping H2OContext!
