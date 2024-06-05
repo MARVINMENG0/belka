@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  jupyter-pyspark:
+    image: my-jupyter-pyspark
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8888:8888"
+    environment:
+      - JUPYTER_TOKEN=belka_kaggle
+      - JUPYTER_ENABLE_LAB=yes
+    volumes:
+      - ./:/home/jovyan/
+      
