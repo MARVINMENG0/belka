@@ -2,3 +2,7 @@ train.parquet
 test.csv
 train.csv
 train_1.parquet/
+smote_label_1
+train_1_encoded.parquet
+train_1_encoded_full.parquet
+train_1_encoded_shards
